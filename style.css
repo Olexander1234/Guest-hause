@@ -645,9 +645,9 @@ display: flex;
     height: 266px;
     background: #FFFFFF;
 border: 1px solid rgba(82, 80, 59, 0.1);
-border-radius: 4px;
+border-radius: 15px;
 margin-left: 136px;
-border: 50px;
+
 }
 
 
@@ -658,4 +658,121 @@ border: 50px;
 }
 .look0{
     margin-top: 80px;
+}
+
+
+.stars{
+    margin-top: 33px;
+    margin-left: 31px;
+}
+
+.stars-text{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 24px;
+/* identical to box height, or 133% */
+
+
+color: #333333;
+margin-left: 31px;
+margin-top: 10px;
+}
+
+.stars-p{
+    width: 506;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+
+
+color: #333333;
+margin-left: 31px;
+margin-top: 11px;
+
+}
+
+
+.amazing{
+    content: '';
+    width: 2px;
+    height: 20px;
+    background-color: #E08631;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+
+.Nate{
+    margin-left: 45px ;
+    margin-top: -20px;
+}
+
+
+
+
+
+
+
+
+
+/* hottel */
+
+.hottel{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 36px;
+/* identical to box height, or 112% */
+
+
+color: #52503B;
+margin-top: 138px;
+margin-left: 136px;
+}
+
+.palka{
+    content: '';
+    width: 42px;
+    height: 8px;
+    background-color: #E08631;
+}
+
+
+.palka1{
+    margin-left: 710px;
+    margin-bottom: 30px;
+}
+
+.palka12{
+    margin-left: 710px;
+    margin-bottom: -80px;
+margin-top: 50px;
+}
+
+.palka3{
+    margin-left: 136px;
+    margin-bottom: 30px;
+}
+.palka32{
+    margin-left: 140px;
+   margin-bottom: -100px;
+    margin-top: 100px;
+}
+
+.amet{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+
+color: #52503B;
+margin-left: 136px;
 }
