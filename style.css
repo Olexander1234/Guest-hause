@@ -1,0 +1,400 @@
+:root{
+    --header-color: #52503B;
+    --white-color: #FFF;
+    --orang-color: #E08631;
+
+}
+html{
+    box-sizing: border-box;
+  }
+  
+  *,
+  *::before,
+  *::after{
+    box-sizing: inherit;
+  }
+  
+  /* Решта коду */
+  
+    body {      
+   
+      background-color: #fff;
+      font-family: Montserrat;
+    }
+
+    body.modal-open{
+      overflow: hidden;
+    }
+  
+    a {
+      text-decoration: none;
+    }
+
+    h1,
+    h2,
+    h3,
+    p,
+    ul {
+      margin-top: 0;
+    }
+    
+    img {
+      display: block;
+      max-width: 100%;
+      height: auto;
+    } 
+  
+    ul {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+    }
+    .contairn{
+        margin-top: 100px;
+       
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 0;
+            padding-left: 15px;
+            padding-right: 15px;
+          
+    }
+    .section {
+        padding-top: 94px;
+        padding-bottom: 94px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+      }
+
+
+    /* хедер */
+
+    .header{
+        background-color: var(--header-color);
+        height: 80px;
+    }
+
+
+
+    .logowan{
+        font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 29px;
+line-height: 35px;
+
+color: #fff;
+/* or 110% */
+
+
+
+
+margin-top: 20px;
+
+     }
+
+     .logo{
+        display: flex;
+        margin-left: 120px;
+       
+     }
+
+     .logo-span{
+        display: flex;
+        margin-top: -35px;
+        margin-left: 600px;
+        
+     }
+
+     .start{
+        
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 200;
+font-size: 15px;
+line-height: 20px;
+/* identical to box height, or 133% */
+
+
+
+color: #fff;
+
+     }
+
+
+.contact{
+    display: flex;
+    margin-top: -20px;
+    margin-left: 667px;
+}
+
+.contact-logo{
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 200;
+font-size: 15px;
+line-height: 20px;
+/* identical to box height, or 133% */
+
+
+
+color: #fff;
+}
+
+
+.history{
+    display: flex;
+    margin-top: -20px;
+    margin-left: 752px;
+}
+.history-logo{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 20px;
+    /* identical to box height, or 133% */
+    
+    
+    
+    color: #fff;
+}
+.button{
+    display: flex;
+    width: 117px;
+    height: 42px;
+    background: #FFFFFF;
+border-radius: 6px;
+
+    margin-left: 1203px;
+    justify-content: center;
+    align-items: center;
+}
+.button-logo{
+    margin-top: -35px;
+}
+    
+
+
+/* герой */
+.herro{
+    background-color: #2f303a;
+    text-align: center;
+    padding-bottom: 100px;
+    padding-top: 100px;
+
+height: 800px;
+    
+background-image: linear-gradient(
+    to right,
+    rgba(47, 48, 58, 0.4),
+    rgba(47, 48, 58, 0.4)
+  ),    url("./img/house.jpg");
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+  
+}
+
+.hero-logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.text-hero{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 53px;
+/* or 110% */
+
+text-align: center;
+
+color: #FFFFFF;
+margin-top: 34px;
+
+}
+
+.mini-text-hero{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+text-align: center;
+letter-spacing: 2px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+
+}
+
+
+
+
+
+
+/* секція дерево */
+
+.trees{
+    content: '';
+    width: 42;
+    height: 8;
+    border-radius: 32px solid var(--orang-color);
+}
+
+.trees-text{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+
+
+color: #333333;
+
+}
+.trees-li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ margin-left: -500px;
+}
+.trees-h1{
+   font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 36px;
+/* identical to box height, or 112% */
+
+text-align: center;
+
+color: #52503B;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.trees-text-1{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 20px;
+/* or 154% */
+
+
+color: #333333;
+}
+.trees-li-1{
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: -500px;
+        margin-top: -180px;
+}
+.button-trees{
+    display: flex;
+    width: 117px;
+    height: 42px;
+    background-color: #52503B;
+    color: #FFF;
+border-radius: 6px;
+
+    margin-left: 1203px;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.li-button-trees{
+    display: flex;
+    margin-left: -540px;
+}
+
+
+
+/* perfect weekend  */
+
+
+
+.perfect-weekend {
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 96px;
+line-height: 96px;
+/* or 100% */
+
+text-align: center;
+
+color: #52503B;
+
+
+}
+
+.umg{
+    width: 1584px;
+    height: 660px;
+}
+
+.Sleeping{
+    display: flex;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 36px;
+/* identical to box height, or 112% */
+
+text-align: center;
+
+color: #52503B;
+justify-content: center;
+align-items: center;
+margin-top: 108px;
+}
+
+
+.Lorem-text{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+text-align: center;
+
+color: #52503B;
+
+}
+.Lorem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Shape{
+    display: flex;
+margin-left: 286px;
+}
+.Shape-1{
+    display: flex;
+margin-left: 697px;
+margin-bottom: 400px;
+}
+ .Shape-2{
+   display: flex;
+margin-left: 1099px;
+}
