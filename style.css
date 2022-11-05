@@ -776,3 +776,44 @@ line-height: 24px;
 color: #52503B;
 margin-left: 136px;
 }
+
+
+
+.wifi{
+    margin-left: 752px;
+    margin-top: -150px;
+}
+
+
+.wifi li + li{
+margin-top: 63px;
+}
+
+.wifi1{
+   margin-left: 1044px;
+   margin-top: -125px ;
+}
+
+.wifi1 li + li{
+    margin-top: 63px;
+    }
+
+
+    .wifi-p{
+        font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+
+
+color: #333333;
+margin-left: 50px;
+margin-top: -40px;
+    }
+
+
+    .wifi-li{
+        margin-top: -5px;
+    }
